@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./src/styles/output.css" />
+    <script
+      src="https://kit.fontawesome.com/5ce14b4205.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-background mx-[100px]">
+    <header>
+      <div class="flex justify-between items-center py-6">
+        <div class="flex items-center space-x-2">
+          <img
+            src="./assets/images/pic_heaer.png"
+            alt="pic-header"
+            class="w-6 h-6"
+          />
+          <span class="text-xl font-semibold text-black"> G-Shop </span>
+        </div>
+        <nav class="hidden md:flex space-x-10 text-black font-medium">
+          <a href="#" class="hover:bg-gray-300 rounded-[15px]">Home</a>
+          <a href="#" class="hover:bg-gray-300 rounded-[15px]">About</a>
+          <a href="#" class="hover:bg-gray-300 rounded-[15px]">Dashboard</a>
+        </nav>
+        <div class="flex items-center space-x-3">
+          <div class="hidden md:flex items-center space-x-2">
+            <i class="fa-solid fa-cart-plus text-secondary"></i>
+            <button
+              class="text-black bg-secondary px-2 py-[2px] rounded-[30px] cursor-pointer"
+            >
+              login
+            </button>
+          </div>
+          <button id="menu-toggle" class="md:hidden focus:outline-none">
+            <svg
+              class="w-6 h-6 text-[#653C24]"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <nav id="mobile-menu" class="md:hidden hidden px-6 py-4">
+        <ul class="flex flex-col gap-3 text-center text-black font-medium">
+          <li><a href="#" class="block hover:text-[#8B4513]">Home</a></li>
+          <li><a href="#" class="block hover:text-[#8B4513]">About</a></li>
+          <li><a href="#" class="block hover:text-[#8B4513]">Dashboard</a></li>
+          <li>
+            <button
+              class="text-black px-6 rounded-full hover:bg-[#4a2e1a] mt-2"
+            >
+              Login
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="flex justify-center items-center px-[50px] gap-[150px] bg-background1 w-full h-[600px]">
+        <div class="text-left max-w-lg">
+          <h1 class="text-black text-7xl font-bold leading-[200px] mt-[-30px]">
+            Net <span class="text-secondary">Arrival</span>
+          </h1>
+          <p class="font-normal text-lg text-black pb-5 leading-8 ">
+            A playful twist on the iconic fashion label Calvin Klein, "Calvyn
+            Clowned" is a fictional brand meant to sound high-end,
+          </p>
+          <p class="font-normal text-lg text-black leading-8">
+            The name suggests you're about to get tricked in style. Ideal for
+            use in prank videos, social media skits, or April Fool's posts about
+          </p>
+
+          <button
+            class="text-black bg-secondary px-4 py-2 mt-6 rounded-[30px] cursor-pointer"
+          >
+            Explore
+          </button>
+        </div>
+        <div class="grid grid-cols-2  ">
+          <img
+          class="w-[300px] h-[500px] row-span-2 rounded-[10px]"
+            src="https://images.unsplash.com/photo-1676790225864-76c836e7b5d6?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="image-hero"
+          />
+           <img
+          class="w-[300px] h-[250px] rounded-[10px]"
+            src="https://plus.unsplash.com/premium_photo-1690340192770-3460a6c5067c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="image-hero"
+          />
+           <img
+          class="w-[300px] h-[250px] rounded-[10px]"
+            src="https://plus.unsplash.com/premium_photo-1690338237128-b32fedb44d55?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3wxfHx8ZW58MHx8fHx8"
+            alt="image-hero"
+          />
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
