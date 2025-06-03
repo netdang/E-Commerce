@@ -3,8 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Ice Stack - E-Learning Platform" />
+    <meta
+      property="og:description"
+      content="Ice Stack is a next-generation e-learning platform offering flexible lessons, interactive code editors, API testing tools, and practical examples across courses like Python, TypeScript, SQL, and more."
+    />
+    <meta property="og:url" content="https://icestack.dev" />
+    <meta property="og:site_name" content="Ice Stack" />
+    <meta property="og:locale" content="en_US" />
     <title>E-Commerce</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/pic_heaer.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./src/styles/output.css" />
+    <meta
+      name="description"
+      content="E-commerce, or electronic commerce, refers to the buying and selling of goods and services over the internet. It encompasses all online transactions, from a customer browsing a website to the final delivery of their purchase."
+    />
+    <meta name="keywords" content="E-Commerce, Clothos, popular" />
+    <meta name="author" content="G-Shop" />
     <script
       src="https://kit.fontawesome.com/5ce14b4205.js"
       crossorigin="anonymous"
@@ -22,9 +41,15 @@
           <span class="text-xl font-semibold text-black"> G-Shop </span>
         </div>
         <nav class="hidden md:flex space-x-10 text-black font-medium">
-          <a href="#" class="hover:bg-gray-300 rounded-[15px]">Home</a>
+          <a href="./index.html" class="hover:bg-gray-300 rounded-[15px]"
+            >Home</a
+          >
           <a href="#" class="hover:bg-gray-300 rounded-[15px]">About</a>
-          <a href="#" class="hover:bg-gray-300 rounded-[15px]">Dashboard</a>
+          <a
+            href="./src/pages/dashboard.html"
+            class="hover:bg-gray-300 rounded-[15px]"
+            >Dashboard</a
+          >
         </nav>
         <div class="flex items-center space-x-3">
           <div class="hidden md:flex items-center space-x-2">
@@ -69,40 +94,42 @@
     </header>
     <main>
       <section
-        class="flex justify-center lg:flex-row flex-col-reverse m-auto  items-center lg:px-[80px] px-5 lg:gap-[150px] gap:20 bg-background1 w-full "
+        class="flex justify-center lg:flex-row flex-col-reverse m-auto items-center lg:px-[50px] px-5 lg:gap-[100px] gap:20 bg-background1 w-full"
       >
-        <div class="text-left max-w-lg">
-          <h1 class="text-black lg:text-7xl md:text-2xl text-[20px] lg:leading-tigh font-bold leading-2 lg:leading-[200px] m-auto mt-[-30px]">
-            Net <span class="text-secondary">Arrival</span>
+        <div class="text-left max-w-lg md:mt-4">
+          <h1
+            class="text-black lg:text-6xl md:text-5xl py-5 text-2xl lg:leading-tigh font-bold lg:leading-[100px] m-auto mt-[-30px]"
+          >
+            New <span class="text-secondary">Arrival</span>
           </h1>
-          <p class="font-normal text-lg text-black pb-5 leading-8 line-clamp-2">
+          <p class="font-normal text-lg text-black lg:pb-5 pb-3 lg:leading-8">
             A playful twist on the iconic fashion label Calvin Klein, "Calvyn
             Clowned" is a fictional brand meant to sound high-end,
           </p>
-          <p class="font-normal text-lg text-black lg:leading-8 leading-4 line-clamp-2">
+          <p class="font-normal text-lg text-black lg:leading-8 line-clamp-2">
             The name suggests you're about to get tricked in style. Ideal for
             use in prank videos, social media skits, or April Fool's posts about
           </p>
 
           <button
-            class="text-black bg-secondary px-4 py-2 mt-6 rounded-[30px] cursor-pointer"
+            class="text-black inline-block bg-secondary px-4 py-2 lg:mt-6 my-4 rounded-[30px] cursor-pointer"
           >
             Explore
           </button>
         </div>
-        <div class="grid grid-cols-2 w-full max-w-lg">
+        <div class="grid grid-cols-2 w-full py-4 max-w-lg">
           <img
-            class="w-[300px] h-[500px] row-span-2 rounded-[10px]"
+            class="lg:w-[300px] lg:h-[450px] h-full row-span-2 rounded-[10px]"
             src="https://images.unsplash.com/photo-1676790225864-76c836e7b5d6?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="image-hero"
           />
           <img
-            class="w-[300px] h-[250px] rounded-[10px]"
+            class="w-[300px] lg:h-[250px] h-full rounded-[10px]"
             src="https://plus.unsplash.com/premium_photo-1690340192770-3460a6c5067c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="image-hero"
           />
           <img
-            class="w-[300px] h-[250px] rounded-[10px]"
+            class="w-[300px] lg:h-[200px] h-full rounded-[10px]"
             src="https://plus.unsplash.com/premium_photo-1690338237128-b32fedb44d55?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3wxfHx8ZW58MHx8fHx8"
             alt="image-hero"
           />
@@ -125,15 +152,11 @@
         ></div>
       </section>
     </main>
-    <footer
-      class="bg-secondary mx-auto max-w-screen space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8 "
-    >
-      <section class="flex justify-between md:items-start md:flex-row flex-col items-center gap-2   text-white">
-        <div>
-          <h4 class="text-sm">Our Partner</h4>
-          <div
-            class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 pt-5 gap-2 justify-center"
-          >
+    <footer class="bg-secondary container mx-auto max-w-screen">
+      <section class="flex justify-around gap-8 py-5 text-white">
+        <div class="">
+          <h4 class="text-sm mb-8">Our Partner</h4>
+          <div class="grid grid-cols-4 gap-2">
             <img class="w-16 h-8" src="./assets/images/CK.jpg" alt="" />
             <img class="w-16 h-8" src="./assets/images/Boos.jpg" alt="" />
             <img class="w-16 h-8" src="./assets/images/Next.jpg" alt="" />
@@ -144,21 +167,27 @@
             <img class="w-16 h-8" src="./assets/images/Nike.jpg" alt="" />
           </div>
         </div>
-        <div>
-          <h4 class="text-sm">Quick Link</h4>
-          <div class="grid grid-cols-2 gap-2 pt-5">
-            <p class="text-sm">Privacy Policy</p>
-            <p class="text-sm">FAQ</p>
-            <p class="text-sm">Terms Of Use</p>
-            <p class="text-sm">Contact</p>
+        <div class="flex flex-col">
+          <h4 class="text-sm text-center mb-8">Quick Link</h4>
+          <div>
+            <div class="flex justify-center gap-4">
+              <p class="text-sm">Privacy Policy</p>
+              <p class="text-sm">Terms Of Use</p>
+            </div>
+            <div class="flex justify-center gap-4">
+              <p class="text-sm">FAQ</p>
+              <p class="text-sm">Contact</p>
+            </div>
           </div>
-          <p class="text-sm text-white dark:text-gray-400 pt-6">
+          <p class="text-sm text-white text-center dark:text-gray-400 pt-6">
             &copy; 2025. All rights reserved.
           </p>
         </div>
-        <div>
+        <div class="">
           <h4 class="text-sm">Download Now</h4>
-          <p class="text-sm text-gray-300 pt-5 pb-2">Save 5% with App New User Only</p>
+          <p class="text-sm text-gray-300 pt-7 pb-2">
+            Save 5% with App New User Only
+          </p>
           <div class="flex">
             <img
               class="w-16 h-16"
