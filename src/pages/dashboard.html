@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class=" mx-[100px]">
+  <body class=" lg:mx-[100px] md:mx-[80px] mx-[10px]">
     <header class="sticky top-0">
       <div class="flex justify-between items-center py-6  bg-white rounded-lg">
         <div class="flex items-center space-x-2">
@@ -34,7 +34,7 @@
             >Home</a
           >
           <a href="#" class="hover:bg-gray-300 rounded-[15px]">About</a>
-          <a href="#" class="hover:bg-gray-300 rounded-[15px]">Dashboard</a>
+          <a href="../../src/pages/dashboard.html" class="hover:bg-gray-300 rounded-[15px]">Dashboard</a>
         </nav>
         <div class="flex items-center space-x-3">
           <div class="hidden md:flex items-center space-x-2">
@@ -64,7 +64,7 @@
       </div>
       <nav id="mobile-menu" class="md:hidden hidden px-6 py-4">
         <ul class="flex flex-col gap-3 text-center text-black font-medium">
-          <li><a href="#" class="block hover:text-[#8B4513]">Home</a></li>
+          <li><a href="../../index.html" class="block hover:text-[#8B4513]">Home</a></li>
           <li><a href="#" class="block hover:text-[#8B4513]">About</a></li>
           <li><a href="#" class="block hover:text-[#8B4513]">Dashboard</a></li>
           <li>
@@ -77,7 +77,7 @@
         </ul>
       </nav>
     </header>
-    <main class="bg-background">
+    <main class="bg-background ">
       <h1 class="text-3xl font-semibold text-center py-8">Dashboard</h1>
       <div class="flex mb-[20px] justify-end">
         <button
@@ -346,14 +346,12 @@
           </div>
         </div>
       </div>
-
-
-      <section class="flex items-center md:justify-center justify-center">
+      <section class=" relative overflow-x-auto flex items-center md:justify-center justify-center">
         <table class="w-full text-sm text-left">
-          <thead class="bg-secondary text-white">
+          <thead class="table-auto bg-secondary text-white ">
             <tr>
-              <th class="ps-10 py-3">Image</th>
-              <th class="pe-40 py-3">Name</th>
+              <th class="md:ps-10 py-3 ps-[15px]">Image</th>
+              <th class="md:pe-40 py-3 pe-[20px]">Name</th>
               <th class="pe-40 py-3">Price</th>
               <th class="py-3">Modify</th>
             </tr>
@@ -476,7 +474,7 @@
           </div>
         </div>
         <div>
-          <p class="text-center"> &copy;Copyright 2025 . All right reserved</p>
+          <p class="text-center  md:ps-18"> &copy;Copyright 2025 . All right reserved</p>
         </div>
       </section>
     </footer>

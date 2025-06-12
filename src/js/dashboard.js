@@ -102,7 +102,7 @@ const displayProudcts = () => {
     .map(
       (product) => `
       <div
-      >
+      class="table-auto">
       <tr class="hover:bg-gray-500 hover:text-white  ">
               <td class="ps-0 ">
                 <img

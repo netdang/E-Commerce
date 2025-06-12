@@ -23,9 +23,9 @@ async function fetchProductDisplay() {
        <div
             class="w-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
           >
-            <a href="./detail.html?id=${product.id}">
+            <a href="./productdetail.html?id=${product.id}">
               <img
-                class="p-8 rounded-t-lg aspect-[3/4] object-fit-cover "
+                class="p-8 rounded-t-lg aspect-[3/4] object-fit-cover transition duration-200 ease-in-out transform hover:scale-105 "
                 src=${
                   product.images ||
                   "https://static.vecteezy.com/system/resources/previews/036/594/092/non_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector.jpg"
@@ -52,9 +52,9 @@ const fetchProduct = async () => {
        <div
             class="w-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
           >
-            <a href="./detail.html?id=${product.id}">
+            <a href="productdetail.html?id=${product.id}">
               <img
-                class="p-8 rounded-t-lg aspect-[3/4] object-fit-cover "
+                class="p-8 rounded-t-lg aspect-[3/4] object-fit-cover transition duration-200 ease-in-out transform hover:scale-105 "
                 src=${
                   product.images[0] ||
                   "https://static.vecteezy.com/system/resources/previews/036/594/092/non_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector.jpg"
